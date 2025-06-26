@@ -40,6 +40,59 @@ let message1 = "Welcome to somaj seba Office";
 console.log(message1.includes("somaj")); 
 console.log(message1.includes('Somaj'));
 
+let word= "banana";
+console.log(word.indexOf("n"));
+let word1= "mango"
+console.log(word1.indexOf('a'));
+ let word2= "website";
+ console.log(word2.slice(0,4));
+ let word3= "programming";
+ console.log(word3.substring(5,10));
+ let text= "i love javascript";
+ console.log(text.replace("javascript", "python"));
+
+ let name4= " morium  ";
+ console.log(name4.trim());
+ let fruits= "apple, mango, banana";
+let arr= fruits.split(", ")
+ console.log(arr);
+ let first= "tanjina";
+ let second= "kumkum";
+ console.log(first+ " "+second);
+ let arry1= [1,2,3,4,5];
+ let arry2= [6,7,8,9,10];
+ let newArry= arry1.concat(arry2);
+ console.log(newArry);
+ let array1= [11,12,13,14];
+ let array2= [15,16,17,18,19];
+ let newArray=[...array1,...array2];
+ console.log(newArray);
+ let nameArray= ['tanjina','kumkum','munmun'];
+ let string= 'tabbassum';
+ let arrayString= nameArray.concat(string);
+ console.log(arrayString);
+ let arrayNam= ['reba','abid','karim'];
+ let joinedString= arrayNam.join('');
+ console.log(joinedString);
+ let song= "amar sonar bangla ami tumy balobashi"
+ let array3= song.split();
+ console.log(array3);
+ let str= "we have learn to javascript";
+ let reverseString= str.split('').reverse().join('');
+ console.log(reverseString);
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
 
 
 
